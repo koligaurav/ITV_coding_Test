@@ -1,11 +1,14 @@
-# Bollywood Superstar Collaborations
-This repository contains a C++ implementation to solve the problem of maximizing the number of Bollywood movies that can be produced during a collaboration festival, adhering to superstar collaboration constraints.
-# Problem Statement
-Given a list of Bollywood superstars and their preferences for collaboration, the goal is to form as many movies as possible. Each movie involves exactly two superstars who are mutually willing to collaborate. Additionally:
+#Bollywood Collaboration Code
+**Overview**
+This code solves the Bollywood Collaboration problem using the Hopcroft-Karp algorithm to find the maximum number of movies that can be produced based on mutual collaboration preferences between superstars.
 
-No superstar can participate in more than one movie.
+**Features**
+1. Constructs a mutual preference graph.
+2. Finds the maximum matching in a bipartite graph.
+3. Efficiently identifies pairs of superstars willing to collaborate.
 
-Preferences are provided in the input.
+**How to Run**
 
-#Dependencies
-This program has no external library dependencies beyond the standard C++ library
+Requirements
+A C++ compiler supporting C++17 or higher (e.g., GCC, Clang, MSVC).
+Input file or manual input for preferences.
